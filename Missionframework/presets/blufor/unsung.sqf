@@ -22,7 +22,7 @@ KP_liberation_truck_classname = "uns_m37b1";							// These are the trucks which
 KP_liberation_small_storage_building = "ContainmentArea_02_sand_F";		// A small storage area for resources.																									Default is "ContainmentArea_02_sand_F".
 KP_liberation_large_storage_building = "ContainmentArea_01_sand_F";		// A large storage area for resources.																									Default is "ContainmentArea_01_sand_F".
 KP_liberation_recycle_building = "Land_UNS_Motorpool";					// The building defined to unlock FOB recycling functionality.																			Default is "Land_CarService_F".
-KP_liberation_air_vehicle_building = "UNS_Hanger1_repair";			// The building defined to unlock FOB air vehicle functionality.																		Default is "Land_Radar_Small_F".
+KP_liberation_air_vehicle_building = "UNS_Hanger1_repair";				// The building defined to unlock FOB air vehicle functionality.																		Default is "Land_Radar_Small_F".
 KP_liberation_heli_slot_building = "LAND_uns_Heli_pad";					// The helipad used to increase the GLOBAL rotary-wing cap.																				Default is "Land_HelipadSquare_F".
 KP_liberation_plane_slot_building = "Land_ss_hanger";					// The hangar used to increase the GLOBAL fixed-wing cap.																				Default is "Land_TentHangar_V1_F".
 KP_liberation_supply_crate = "Land_drevena_bedna";						// This defines the supply crates, as in resources.																						Default is "CargoNet_01_box_F".
@@ -78,7 +78,7 @@ light_vehicles = [
 	["uns_xm706e2",150,85,60],
 	["uns_xm706e1",185,85,60], 
 	["uns_M113_M60",200,40,150],
-	["uns_M113_XM182",200,50,150]
+	["uns_M113_XM182",200,50,150],
 	["uns_M113_M134",200,70,150],
 	["uns_M113_30cal",200,70,150],
 	["uns_M113_M2",200,80,150],
