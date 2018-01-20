@@ -238,7 +238,7 @@ support_vehicles = [
 	["LAND_UNS_Motorpool_repair",275,0,0],								//Motorpool Repair
 	["UNS_Hanger1_repair",275,0,0],										//Hanger Repair	
 	["Land_UNS_FuelDepot_refuel",175,0,0],								//Fuel Pump
-	["Land_UNS_FuelDepot_refuel",275,0,0],								/Fuel Depot
+	["Land_UNS_FuelDepot_refuel",275,0,0],								//Fuel Depot
 	["uns_US_armoury",75,0,200]											//Ammo 
 ];
 
