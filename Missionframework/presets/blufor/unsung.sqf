@@ -11,7 +11,7 @@ Each of these should be unique, the same classnames for different purposes may c
 FOB_typename = "LAND_sb_bunker_main";									// This is the main FOB HQ building. 																									Default is "Land_Cargo_HQ_V1_F".
 FOB_box_typename = "Land_scntr";										// This is the FOB as a container. 																										Default is "B_Slingload_01_Cargo_F".
 FOB_truck_typename = "uns_M35A2";										// This is the FOB as a vehicle.																										Default is "B_Truck_01_box_F".
-Arsenal_typename = "CBox";												// This is the virtual arsenal as portable supply crates.  																				Default is "B_supplyCrate_F".
+Arsenal_typename = "B_supplyCrate_F"; // "CBox" <--- parachute issues   // This is the virtual arsenal as portable supply crates.  																				Default is "B_supplyCrate_F".
 Respawn_truck_typename = "uns_M35A2_Open";								// This is the mobile respawn (and medical) truck. 																						Default is "B_Truck_01_medical_F".
 huron_typename = "uns_ch47_m60_usmc";									// This is Spartan 01, a multipurpose mobile respawn as a helicopter. 																	Default is "B_Heli_Transport_03_unarmed_F".
 crewman_classname = "uns_US_6TB_DRV2";									// This defines the crew for vehicles. 																									Default is "B_crew_F".
@@ -25,9 +25,9 @@ KP_liberation_recycle_building = "Land_UNS_Motorpool";					// The building defin
 KP_liberation_air_vehicle_building = "UNS_Hanger1_repair";				// The building defined to unlock FOB air vehicle functionality.																		Default is "Land_Radar_Small_F".
 KP_liberation_heli_slot_building = "LAND_uns_Heli_pad";					// The helipad used to increase the GLOBAL rotary-wing cap.																				Default is "Land_HelipadSquare_F".
 KP_liberation_plane_slot_building = "Land_ss_hanger";					// The hangar used to increase the GLOBAL fixed-wing cap.																				Default is "Land_TentHangar_V1_F".
-KP_liberation_supply_crate = "Land_drevena_bedna";						// This defines the supply crates, as in resources.																						Default is "CargoNet_01_box_F".
-KP_liberation_ammo_crate = "ABox_4";									// This defines the ammunition crates.																									Default is "B_CargoNet_01_ammo_F".
-KP_liberation_fuel_crate = "LAND_barrels_green";						// This defines the fuel crates.																										Default is "CargoNet_01_barrels_F".
+KP_liberation_supply_crate = "CargoNet_01_box_F";    //"Land_drevena_bedna";	<--- parachute issues						// This defines the supply crates, as in resources.																						Default is "CargoNet_01_box_F".
+KP_liberation_ammo_crate = "B_CargoNet_01_ammo_F";     	//"ABox_4";			<--- parachute issues						// This defines the ammunition crates.																									Default is "B_CargoNet_01_ammo_F".
+KP_liberation_fuel_crate = "CargoNet_01_barrels_F";         //"LAND_barrels_green";  <--- parachute issues 						// This defines the fuel crates.																										Default is "CargoNet_01_barrels_F".
 
 /* - Friendly classnames.
 Each array below represents one of the 7 pages within the build menu. 
